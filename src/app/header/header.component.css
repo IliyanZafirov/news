@@ -1,8 +1,45 @@
 .mat-toolbar {
-    background-color: #000080;
-    color: whitesmoke;
+    background-color: black;
     position: fixed;
     top: 0;
     overflow: hidden;
     width: 100%;
 }
+
+.a {
+    width:25%;
+}
+
+.navigation_container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials_container {
+    width:25%;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.categories li {
+    display: inline;
+}
+
+.categories ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+}
+
