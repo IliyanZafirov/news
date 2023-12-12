@@ -6,40 +6,29 @@
     width: 100%;
 }
 
-.a {
-    width:25%;
-}
 
 .navigation_container {
-    width: 50%;
+    padding: 555px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
 }
 
-.socials_container {
-    width:25%;
-}
 
 .categories {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    margin: 0 auto;
 }
 
-.categories li {
-    display: inline;
-}
-
-.categories ul {
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-.categories a {
+.news_container a {
     text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
     color: white;
 }
+
 
