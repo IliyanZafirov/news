@@ -1,0 +1,21 @@
+<div *ngIf="articles">
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let article of articles">
+            <td>{{ article.id }}</td>
+            <td>{{ article.title }}</td>
+            <td>{{ article.content }}</td>
+            <td>{{ article.category }}</td>
+            <td>{{ article.publicationDate }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
